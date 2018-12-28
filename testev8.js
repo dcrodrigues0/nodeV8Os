@@ -52,7 +52,6 @@ const server = http.createServer((req,res) =>{
     </div>
     <script>
     var v8 = document.querySelector(".v8");
-    var audio1 = new Audio();
     v8.addEventListener("click",function(){
         Swal(
             'Suas configurações de sistema são',
